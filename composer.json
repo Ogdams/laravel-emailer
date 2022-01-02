@@ -1,0 +1,19 @@
+{
+    "name": "ogdams/contact",
+    "description": "This can be used to send emails to admin/customers/users and saves email to db",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "OGDAMS",
+            "email": "damilaresamson.ogunsiji@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ogdams\\Contact\\" : "src/"
+        }
+    }
+}
