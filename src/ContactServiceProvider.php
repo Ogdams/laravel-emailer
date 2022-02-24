@@ -25,11 +25,11 @@ class ContactServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/views', 'contact'); //load views
         //publish email mark down
         $this->publishes([
-            __DIR__.'/views' => resource_path('views\contact\email.php'),
+            __DIR__.'/views' => resource_path('contact\email.php'),
         ], 'email-mark-down');
         //publish contact email
         $this->publishes([
-            __DIR__.'/views' => resource_path('views\email.php'),
+            __DIR__.'/views' => resource_path('email.php'),
         ], 'contact-form');
         $this->mergeConfigFrom(__DIR__.'/config/contact.php', 'contact'); //merge configuration files
         $this->publishes([
