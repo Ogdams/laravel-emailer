@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ogdams\\Contact\\ServiceProvider"
+                "Ogdams\\Contact\\ContactServiceProvider"
             ]
         }
     }
